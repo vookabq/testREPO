@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3A92E91A7DD64200E899DD /* TeamsMatchCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3A92E81A7DD64200E899DD /* TeamsMatchCellTableViewCell.swift */; };
+		EF47D8B91A7CAFC900CD82B9 /* SwitchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47D8B81A7CAFC900CD82B9 /* SwitchingViewController.swift */; };
+		EF47D8BB1A7CB0BB00CD82B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47D8BA1A7CB0BB00CD82B9 /* HomeViewController.swift */; };
+		EF47D8BD1A7CB0CB00CD82B9 /* MyBetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47D8BC1A7CB0CB00CD82B9 /* MyBetsViewController.swift */; };
+		EF47D8BF1A7CB0E200CD82B9 /* LeadersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47D8BE1A7CB0E200CD82B9 /* LeadersViewController.swift */; };
+		EF47D8C11A7CB10000CD82B9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF47D8C01A7CB10000CD82B9 /* ProfileViewController.swift */; };
 		EFCAD9ED1A788C4B00AB941C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCAD9EC1A788C4B00AB941C /* AppDelegate.swift */; };
-		EFCAD9EF1A788C4B00AB941C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFCAD9EE1A788C4B00AB941C /* ViewController.swift */; };
 		EFCAD9F21A788C4B00AB941C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFCAD9F01A788C4B00AB941C /* Main.storyboard */; };
 		EFCAD9F41A788C4B00AB941C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFCAD9F31A788C4B00AB941C /* Images.xcassets */; };
 		EFCAD9F71A788C4B00AB941C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFCAD9F51A788C4B00AB941C /* LaunchScreen.xib */; };
@@ -26,10 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF3A92E81A7DD64200E899DD /* TeamsMatchCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsMatchCellTableViewCell.swift; sourceTree = "<group>"; };
+		EF47D8B81A7CAFC900CD82B9 /* SwitchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchingViewController.swift; sourceTree = "<group>"; };
+		EF47D8BA1A7CB0BB00CD82B9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EF47D8BC1A7CB0CB00CD82B9 /* MyBetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBetsViewController.swift; sourceTree = "<group>"; };
+		EF47D8BE1A7CB0E200CD82B9 /* LeadersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadersViewController.swift; sourceTree = "<group>"; };
+		EF47D8C01A7CB10000CD82B9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		EFCAD9E71A788C4B00AB941C /* wudget v.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wudget v.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFCAD9EB1A788C4B00AB941C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFCAD9EC1A788C4B00AB941C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFCAD9EE1A788C4B00AB941C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFCAD9F11A788C4B00AB941C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFCAD9F31A788C4B00AB941C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EFCAD9F61A788C4B00AB941C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -59,6 +69,12 @@
 		EFCAD9DE1A788C4900AB941C = {
 			isa = PBXGroup;
 			children = (
+				EF3A92E81A7DD64200E899DD /* TeamsMatchCellTableViewCell.swift */,
+				EF47D8BA1A7CB0BB00CD82B9 /* HomeViewController.swift */,
+				EF47D8BC1A7CB0CB00CD82B9 /* MyBetsViewController.swift */,
+				EF47D8BE1A7CB0E200CD82B9 /* LeadersViewController.swift */,
+				EF47D8C01A7CB10000CD82B9 /* ProfileViewController.swift */,
+				EF47D8B81A7CAFC900CD82B9 /* SwitchingViewController.swift */,
 				EFCAD9E91A788C4B00AB941C /* wudget v.0 */,
 				EFCAD9FF1A788C4B00AB941C /* wudget v.0Tests */,
 				EFCAD9E81A788C4B00AB941C /* Products */,
@@ -78,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				EFCAD9EC1A788C4B00AB941C /* AppDelegate.swift */,
-				EFCAD9EE1A788C4B00AB941C /* ViewController.swift */,
 				EFCAD9F01A788C4B00AB941C /* Main.storyboard */,
 				EFCAD9F31A788C4B00AB941C /* Images.xcassets */,
 				EFCAD9F51A788C4B00AB941C /* LaunchScreen.xib */,
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFCAD9EF1A788C4B00AB941C /* ViewController.swift in Sources */,
+				EF47D8C11A7CB10000CD82B9 /* ProfileViewController.swift in Sources */,
+				EF47D8BD1A7CB0CB00CD82B9 /* MyBetsViewController.swift in Sources */,
+				EF3A92E91A7DD64200E899DD /* TeamsMatchCellTableViewCell.swift in Sources */,
+				EF47D8BF1A7CB0E200CD82B9 /* LeadersViewController.swift in Sources */,
 				EFCAD9ED1A788C4B00AB941C /* AppDelegate.swift in Sources */,
+				EF47D8B91A7CAFC900CD82B9 /* SwitchingViewController.swift in Sources */,
+				EF47D8BB1A7CB0BB00CD82B9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "wudget v.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "wudget v.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -407,6 +429,7 @@
 				EFCADA081A788C4B00AB941C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFCADA091A788C4B00AB941C /* Build configuration list for PBXNativeTarget "wudget v.0Tests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +438,7 @@
 				EFCADA0B1A788C4B00AB941C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
